@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+
+    background-color:hsl(217, 54%, 11%);
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+
+    width:100vw;
+    height: 100vh;
+    position: relative;
+}
+
+article#NFT{
+
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+    width: 290px;
+    height: 520px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    padding: 25px;
+}
+
+article#NFT > div#img{
+
+    background: transparent url('./../images/image-equilibrium.jpg') center center / cover no-repeat;
+    height: 275px;
+    border-radius: 7px;
+    padding: 13px;
+    margin-bottom: 20px;
+}
+
+article#NFT > div#info >  h1{
+
+    margin-bottom: 15px;
+    color: hsl(0, 0%, 100%);
+    font: 600 1.5em 'Outfit', san-serif;
+}
+
+article#NFT > div#info > p{
+
+    color: hsl(215, 51%, 70%);
+    font: 300 1.1em 'Outfit', san-serif;
+   
+}
+
+article#NFT > div#info > p#moeda{
+
+    display: inline-block;
+    color: hsl(178, 100%, 50%);
+    font: 400 1.1em 'Outfit', san-serif;
+    padding-bottom: 0px;
+    margin-right: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+article#NFT > div#info > p#tempo{
+    display: inline-block;
+    font: 400 1.1em 'Outfit', san-serif;
+    padding-bottom: 0px;
+}
+
+article#NFT > div#info > div#linha-horizontal{
+
+    width: 290px;
+    border: 1px solid hsl(215, 32%, 27%);
+    margin-bottom: 20px;
+
+}
