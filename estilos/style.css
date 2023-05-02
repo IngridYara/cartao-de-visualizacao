@@ -10,14 +10,14 @@
 body, html{
 
     background-color:hsl(217, 54%, 11%);
-    width: 100vw;
+    width: 97vw;
     height: 100vh;
 }
 
 main{
 
-    width:100vw;
-    height: 100vh;
+    width:97vw;
+    height: 600px;
     position: relative;
 }
 
@@ -26,13 +26,16 @@ article#NFT{
     position: absolute;
     top: 50%;
     left:50%;
-    transform: translate(-50%, -50%);
-
+    
     width: 290px;
-    height: 520px;
+    height: 530px;
     background-color: hsl(216, 50%, 16%);
     border-radius: 20px;
     padding: 25px;
+
+    transform: translate(-50%, -50%);
+    transition: width 0.4s height 0.4s;
+    transition-timing-function: ease;
 }
 
 article#NFT > div#img{
@@ -81,4 +84,24 @@ article#NFT > div#info > div#linha-horizontal{
     border: 1px solid hsl(215, 32%, 27%);
     margin-bottom: 20px;
 
+}
+
+article#NFT > div#info > p#creador{
+  
+    font-size: 1em;
+}
+
+article#NFT > div#info > p#creador > img{
+
+    vertical-align: middle;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: solid 1px white;
+}
+
+article#NFT > div#info > p#creador > span{
+
+    color: hsl(0, 0%, 100%);
 }
