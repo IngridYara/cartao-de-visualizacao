@@ -45,6 +45,13 @@ article#NFT > div#img{
     border-radius: 7px;
     padding: 13px;
     margin-bottom: 20px;
+   
+}
+
+article#NFT > div#img:hover{
+
+    background: linear-gradient(hsla(178, 100%, 50%, 0.561), hsla(178, 100%, 50%, 0.561)), url('./../images/icon-view.svg') center center  no-repeat, url('./../images/image-equilibrium.jpg') center center / cover no-repeat;
+
 }
 
 article#NFT > div#info >  h1{
@@ -52,6 +59,11 @@ article#NFT > div#info >  h1{
     margin-bottom: 15px;
     color: hsl(0, 0%, 100%);
     font: 600 1.5em 'Outfit', san-serif;
+}
+
+article#NFT > div#info >  h1:hover{
+
+    color:hsl(178, 100%, 50%);
 }
 
 article#NFT > div#info > p{
@@ -104,4 +116,9 @@ article#NFT > div#info > p#creador > img{
 article#NFT > div#info > p#creador > span{
 
     color: hsl(0, 0%, 100%);
+}
+
+article#NFT > div#info > p#creador > span:hover{
+
+    color:hsl(178, 100%, 50%);
 }
